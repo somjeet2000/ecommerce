@@ -1,0 +1,233 @@
+.navbar {
+    height: 82px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.iconBrandName {
+    display: flex;
+    padding: 28px;
+    position: relative;
+    padding-left: 35px;
+}
+
+.navbarIcon {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 4px;
+    border-radius: 5px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.iconBrandName .tooltip {
+    display: block;
+    opacity: 1;
+}
+
+.navbarIcon:hover {
+    color: seagreen;
+}
+
+.iconClicked {
+    height: 100px;
+    background-color: red;
+}
+
+.brandName {
+    padding-left: 35%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.navbarCategories {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 32px;
+}
+
+.navbarWomen {
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbarMen {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    width: 230px;
+    transition: all 0.3s ease;
+}
+
+.dropdownMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdownMenu li {
+    padding: 8px;
+    text-align: left;
+    color: seagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.dropdownMenu li:hover {
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.navbarMen:hover {
+    color: seagreen;
+}
+
+.navbarWomen:hover {
+    color: seagreen;
+}
+
+.navbarUser {
+    display: flex;
+    padding-left: 430px;
+    padding-top: 25px;
+}
+
+.navbarSearch {
+    display: flex;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 30px;
+    width: 250px;
+    align-items: center;
+}
+
+.searchInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.searchButton {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+
+.searchInput::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.navbarLogin {
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.tooltip2 {
+    position: absolute;
+    top: 1px;
+    right: 128px;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbarUser .tooltip2 {
+    display: block;
+    opacity: 1;
+}
+
+.navbarLogin:hover {
+    color: seagreen;
+}
+
+.navbarWishlist {
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.tooltip3 {
+    position: absolute;
+    top: 1px;
+    right: 70px;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbarUser .tooltip3 {
+    display: block;
+    opacity: 1;
+}
+
+.navbarWishlist:hover {
+    color: seagreen;
+}
+
+.navbarCart {
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.tooltip4 {
+    position: absolute;
+    top: 1px;
+    right: 30px;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbarUser .tooltip4 {
+    display: block;
+    opacity: 1;
+}
+
+.navbarCart:hover {
+    color: seagreen;
+}
